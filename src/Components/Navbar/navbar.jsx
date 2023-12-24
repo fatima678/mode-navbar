@@ -19,8 +19,8 @@ const navbar = () => {
             <li>About</li>
         </ul>
         <div className="search-box">
-            <input type='text ' placeholder='Search'></input> 
-            <img src={search_icon_light} alt=''></img>
+            <input type='text' placeholder='Search'></input> 
+            <img src={search_icon_light} alt='' className='icon'></img>
         </div>
            <img src={toggle_light} alt='' className='toggle-icon'></img>    
     </div>
