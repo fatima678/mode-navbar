@@ -8,6 +8,10 @@
     width: 100vw;
     height: 100vh;
     background: #ced8ff; 
+    transition: 0.5s;
+}
+.container.dark{
+    background: #222;
 }
 .navbar{
     width: 100%;
@@ -16,6 +20,7 @@
     align-items: center;
     background-color: white;
     padding: 15px 7%;
+    transition: 0.5s;
 }
 .logo{
     width: 169px;
@@ -61,4 +66,17 @@ ul li{
 .search-box img{
     width: 20px;
     cursor: pointer;
+}
+.dark .navbar{
+    background: #000;
+    color: #fff;
+}
+.dark .search-box{
+    background: #fff;
+}
+.dark .search-box input{
+    color: #222;
+}
+.dark .search-box input::placeholder{
+    color: #222;
 }
