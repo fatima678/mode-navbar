@@ -54,6 +54,11 @@ ul li{
     font-size: 18px;
     max-width: 200px;
 }
-.icon{
+
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
     width: 20px;
+    cursor: pointer;
 }
